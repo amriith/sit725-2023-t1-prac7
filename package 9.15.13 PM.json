@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "chai": "^4.4.0",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "mongodb": "^6.3.0",
+    "request": "^2.88.2"
+  },
+  "name": "sit725-2023-t1-prac6",
+  "description": "sit725-2023-t1-prac6",
+  "version": "1.0.0",
+  "main": "startServerWithMongo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node startServerWithMongo.js"
+  },
+  "author": "Amrith",
+  "license": "ISC"
+}
